@@ -191,6 +191,7 @@ module.exports = function (RED) {
           audio: audio,
           content_type: 'audio/' + format,
           model: model,
+          smart_formatting: true,
           continuous: config.continuous ? config.continuous : false,
           speaker_labels: config.speakerlabels ? config.speakerlabels : false,
         };
